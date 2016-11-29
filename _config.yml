@@ -1,0 +1,11 @@
+
+title: 'Resume: Johan Andersson'
+url: 'http://johan.andersson.net'
+baseurl: '/resume' #change it according to your repository name
+
+#Profile information
+name: Johan Andersson
+tagline: Senior Developer
+pic: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+email: johan@andersson.net
+website: johan.andersson.net #do not add http://

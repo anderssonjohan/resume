@@ -1,0 +1,55 @@
+<section class="section summary-section">
+<div class="summary">
+
+<div class="row">
+
+<div class="col-sm-3">
+            <div class="profile-container">
+                <img class="profile" src="{{site.baseurl}}/assets/images/{% if site.pic %}{{ site.pic }}{% else %}profile.png{% endif %}" width="150" height="150" alt="profile picture" />
+    <h1 class="name">{% if site.name %}{{site.name}}{% else %}Alan Doe{% endif %}</h1>
+    <h3 class="tagline">{% if site.tagline %}{{site.tagline}}{% else %}Full Stack Developer{% endif %}</h3>
+            </div><!--//profile-container-->
+
+            <div class="contact-container container-block">
+                <ul class="list-unstyled contact-list">
+
+                   {% if site.email %}
+                    <li class="email"><a href="mailto:{{site.email}}">{{site.email}}</a></li>
+                    {% endif %}
+
+                    {% if site.website %}
+                    <li class="website"></i><a href="http://{{site.website}}" target="_blank">http://{{site.website}}</a></li>
+                    {% endif %}
+
+                    <li>Languages: Swedish/English
+
+                    <li>Location: Stockholm
+
+                    <li>Born: 1980
+
+                </ul>
+            </div><!--//contact-container-->
+</div>
+<div class="summary-container col-sm-9">
+    <h1 class="name">{% if site.name %}{{site.name}}{% else %}Alan Doe{% endif %}</h1>
+    <h3 class="tagline">{% if site.tagline %}{{site.tagline}}{% else %}Full Stack Developer{% endif %}</h3>
+    <p>
+
+Self-thought software engineer with 20 years experience in web technology.
+</p>
+<p>
+Prefers to work with service-oriented architecture with a end-user focus and Microsoft.Net as the platform.
+Advocates for cloud based solutions with an automated quality assurance process and a continuous delivery in a close
+collaboration between developers and operations.
+Extensive experience of automation in all parts of a development process, from unit testing to web tests and deployment.
+</p>
+<p>
+Lives in Sundbyberg, Stockholm. Wife, 2 kids and 2 chihuahuas.
+</p>
+</div>
+
+
+</div>
+
+</div><!--//summary-->
+</section><!--//section-->
